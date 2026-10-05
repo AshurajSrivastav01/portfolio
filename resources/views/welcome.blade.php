@@ -1,0 +1,1193 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ashuraj Srivastav · Software Engineer</title>
+    <!-- Bootstrap 5.3 + Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <!-- Google Font (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ asset('asset/css/style.css') }}" />
+  </head>
+  <body>
+    <!-- ====== NAVBAR ====== -->
+    <nav class="premium-nav" id="premiumNav" aria-label="Main navigation">
+      <div class="navbar-wrapper">
+        <div class="nav-inner">
+          <a href="#" class="logo-link" aria-label="Ashuraj homepage">
+            <span class="logo-mark">&lt;AS/&gt;</span>
+            <span class="logo-text">Ashuraj</span>
+          </a>
+          <ul class="nav-links" id="desktopNav">
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-nav>About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link" data-nav>Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#services" class="nav-link" data-nav>Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link" data-nav>Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#experience" class="nav-link" data-nav>Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" data-nav>Contact</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-3">
+            <div class="nav-cta">
+              <a href="#contact" class="btn-hire">
+                Hire Me
+                <i class="bi bi-arrow-right-short"></i>
+              </a>
+            </div>
+            <button
+              class="hamburger"
+              id="hamburgerBtn"
+              aria-label="Toggle navigation menu"
+              aria-expanded="false"
+            >
+              <i class="bi bi-list"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ====== MOBILE OVERLAY ====== -->
+    <div
+      class="mobile-menu-overlay"
+      id="mobileOverlay"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Mobile navigation"
+    >
+      <div class="mobile-menu-panel">
+        <div class="mobile-menu-header">
+          <span class="logo-link" style="pointer-events: none">
+            <span class="logo-mark">&lt;AS/&gt;</span>
+            <span class="logo-text">Ashuraj</span>
+          </span>
+          <button
+            class="mobile-close"
+            id="closeMenuBtn"
+            aria-label="Close navigation menu"
+          >
+            <i class="bi bi-x-lg"></i>
+          </button>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a href="#about" class="nav-link" data-nav>About</a></li>
+          <li><a href="#skills" class="nav-link" data-nav>Skills</a></li>
+          <li><a href="#services" class="nav-link" data-nav>Services</a></li>
+          <li><a href="#projects" class="nav-link" data-nav>Projects</a></li>
+          <li>
+            <a href="#experience" class="nav-link" data-nav>Experience</a>
+          </li>
+          <li><a href="#contact" class="nav-link" data-nav>Contact</a></li>
+        </ul>
+        <div class="mobile-cta">
+          <a href="#contact" class="btn-hire">
+            Hire Me
+            <i class="bi bi-arrow-right-short"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====== HERO ====== -->
+    <section class="hero-wrapper section-padding" id="home">
+      <div class="row align-items-center g-4 hero-card">
+        <div class="col-lg-6 col-xl-6 fade-slide-up">
+          <div class="badge-freelance">
+            <i class="bi bi-circle-fill" style="font-size: 0.6rem"></i>
+            Available for Freelance
+          </div>
+          <h1 class="main-heading">
+            Building Scalable <span>Laravel</span> &<br />
+            <span>Moodle</span> Solutions for <span>Businesses</span> &
+            <span>Educational</span> Platforms
+          </h1>
+          <p class="desc-text">
+            I help startups, educational institutions, and businesses build
+            scalable Laravel applications, custom Moodle LMS platforms, REST
+            APIs, and backend systems that are secure, maintainable, and built
+            for growth.
+          </p>
+          <div class="cta-group">
+            <a href="#projects" class="btn btn-premium btn-primary-custom"
+              >Explore My Work</a
+            >
+            <a href="#contact" class="btn btn-premium btn-outline-custom"
+              >Let's Talk</a
+            >
+            <a href="#contact" class="btn btn-premium btn-primary-custom"
+              ><i class="bi bi-file-fill"></i> Download Resume</a
+            >
+          </div>
+          <div class="social-icons">
+            <a href="https://github.com/AshurajSrivastav01" aria-label="GitHub"><i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/ashuraj-srivastav/?skipRedirect=true" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+            <a href="mailto:ashuraj.srivastav01@gmail.com" aria-label="Email"
+              ><i class="bi bi-envelope-fill"></i
+            ></a>
+          </div>
+          <div class="trust-grid">
+            <span class="trust-card"
+              ><i class="bi bi-briefcase-fill"></i> <strong>3+</strong> Years
+              Experience</span
+            >
+            <span class="trust-card"
+              ><i class="bi bi-diagram-3-fill"></i> <strong>10+</strong> Client
+              Projects</span
+            >
+            <span class="trust-card"
+              ><i class="bi bi-code-square"></i>Laravel + Moodle
+              Specialist</span
+            >
+            <span class="trust-card"
+              ><i class="bi bi-check-circle-fill"></i>Available Worldwide</span
+            >
+          </div>
+        </div>
+        <div
+          class="col-lg-6 col-xl-6 d-flex justify-content-center justify-content-lg-end mt-3 mt-lg-0"
+        >
+          <div
+            class="photo-wrapper"
+            style="position: relative; width: 100%; max-width: 420px"
+          >
+            <div
+              class="profile-card fade-slide-up"
+              style="animation-delay: 0.1s"
+            >
+              <img
+                src="{{ asset('asset/img/me.png') }}"
+                alt="Ashuraj Srivastav"
+                class="profile-img"
+                loading="eager"
+              />
+            </div>
+            <span class="floating-badge badge-1"
+              ><i class="bi bi-hexagon-fill"></i> Laravel</span
+            >
+            <span class="floating-badge badge-2"
+              ><i class="bi bi-filetype-php"></i> PHP</span
+            >
+            <span class="floating-badge badge-5"
+              ><i class="bi bi-database-fill"></i> MySQL</span
+            >
+            <span class="floating-badge badge-4"
+              ><i class="bi bi-diagram-2-fill"></i> REST API</span
+            >
+            <span class="floating-badge badge-3"
+              ><i class="bi bi-bootstrap-fill"></i> PostgreSQL</span
+            >
+            <span class="floating-badge badge-6"
+              ><i class="bi bi-grid-3x3-gap-fill"></i> Moodle</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== ABOUT ====== -->
+    <section class="section-padding" id="about" style="background: var(--bg)">
+      <div class="container">
+        <div class="text-center mb-4">
+          <span
+            class="badge-freelance"
+            style="display: inline-flex; margin-bottom: 0.5rem"
+          >
+            <i class="bi bi-person-lines-fill"></i> About Me
+          </span>
+
+          <h2 class="section-title">
+            Laravel & Moodle Solutions <br />
+            Built for Real Businesses
+          </h2>
+
+          <div class="accent-line"></div>
+
+          <p class="section-subtitle">
+            I'm <strong>Ashuraj Srivastav</strong>, a Full-Stack Web Developer
+            with 3+ years of professional experience specializing in Laravel,
+            Moodle LMS, and backend development. I help businesses and
+            educational organizations build secure web applications, scalable
+            Learning Management Systems, and high-performance REST APIs.
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <!-- Left Card -->
+
+          <div class="col-lg-7">
+            <div class="about-card">
+              <h4 class="mb-4">Who I Am</h4>
+
+              <p style="color: var(--text-secondary); line-height: 1.9">
+                I'm passionate about building web applications that solve real
+                business problems. Over the past three years, I've worked on
+                custom Laravel applications, Moodle Learning Management Systems,
+                CRM solutions, booking platforms, and RESTful APIs for
+                businesses across different industries.
+              </p>
+
+              <p style="color: var(--text-secondary); line-height: 1.9">
+                My strongest expertise is in Moodle development, where I build
+                custom plugins, LMS features, third-party integrations, and
+                migration tools. Alongside Moodle, I develop scalable Laravel
+                applications with clean architecture, optimized databases, and
+                secure APIs.
+              </p>
+
+              <p style="color: var(--text-secondary); line-height: 1.9">
+                I enjoy turning complex requirements into reliable, maintainable
+                software that helps businesses grow. My goal is always to
+                deliver solutions that are scalable, efficient, and easy to
+                maintain.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Card -->
+
+          <div class="col-lg-5">
+            <div
+              class="about-card"
+              style="display: flex; flex-direction: column; gap: 1.2rem"
+            >
+              <h4 class="mb-3">Quick Facts</h4>
+
+              <div>
+                <i class="bi bi-geo-alt-fill text-danger me-2"></i>
+                <strong>Location:</strong> New Delhi, India
+              </div>
+
+              <div>
+                <i class="bi bi-globe2 text-danger me-2"></i>
+                <strong>Working With:</strong> International & Indian Clients
+              </div>
+
+              <div>
+                <i class="bi bi-briefcase-fill text-danger me-2"></i>
+                <strong>Experience:</strong> 3+ Years Professional Experience
+              </div>
+
+              <div>
+                <i class="bi bi-check2-circle text-danger me-2"></i>
+                <strong>Projects:</strong> 50+ Professional Projects Delivered
+              </div>
+
+              <div>
+                <i class="bi bi-mortarboard-fill text-danger me-2"></i>
+                <strong>Specialization:</strong> Moodle LMS & Plugin Development
+              </div>
+
+              <div>
+                <i class="bi bi-code-slash text-danger me-2"></i>
+                <strong>Backend:</strong> Laravel, PHP & REST API Development
+              </div>
+
+              <div>
+                <i class="bi bi-database-fill text-danger me-2"></i>
+                <strong>Databases:</strong> MySQL, PostgreSQL & MongoDB
+              </div>
+
+              <div>
+                <i class="bi bi-lightning-charge-fill text-danger me-2"></i>
+                <strong>Focus:</strong> Performance Optimization & Clean
+                Architecture
+              </div>
+
+              <div>
+                <i class="bi bi-patch-check-fill text-danger me-2"></i>
+                <strong>Status:</strong> Available for Freelance & Contract
+                Projects
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SKILLS SECTION (Glassmorphism Cards – White Background) ====== -->
+    <section class="skills-section-white">
+      <div class="skills-container">
+        <!-- Section Header -->
+        <div class="skills-header">
+          <span class="skills-badge">
+            <i class="bi bi-code-slash"></i> Skills
+          </span>
+          <h2 class="skills-title">Technologies I Work With</h2>
+          <div class="skills-accent-line"></div>
+          <p class="skills-subtitle">
+            The tools and technologies I use every day to build scalable web
+            applications, Learning Management Systems, REST APIs, and business
+            solutions.
+          </p>
+        </div>
+
+        <!-- Cards Grid -->
+        <div class="skills-grid">
+          <!-- Card 1: Backend Development -->
+          <div class="skill-glass-card">
+            <div class="card-title">
+              <i class="bi bi-server"></i> Backend Development
+            </div>
+            <ul>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-hexagon-fill tech-icon"></i> Laravel
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-filetype-php tech-icon"></i> PHP
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-diagram-2-fill tech-icon"></i> REST APIs
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-layers-fill tech-icon"></i> MVC Architecture
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-shield-lock-fill tech-icon"></i> Authentication
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-people-fill tech-icon"></i> Role Based Access
+                Control
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 2: Learning Management Systems -->
+          <div class="skill-glass-card">
+            <div class="card-title">
+              <i class="bi bi-mortarboard-fill"></i> Learning Management Systems
+            </div>
+            <ul>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-grid-3x3-gap-fill tech-icon"></i> Moodle
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-puzzle-fill tech-icon"></i> Custom Plugin
+                Development
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-palette-fill tech-icon"></i> Theme Customization
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-arrow-left-right tech-icon"></i> Course
+                Migration
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-diagram-3-fill tech-icon"></i> LMS Integration
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 3: Database -->
+          <div class="skill-glass-card">
+            <div class="card-title">
+              <i class="bi bi-database-fill"></i> Database
+            </div>
+            <ul>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-database tech-icon"></i> MySQL
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-database tech-icon"></i> PostgreSQL
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-database tech-icon"></i> MongoDB
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-graph-up-arrow tech-icon"></i> Query
+                Optimization
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-diagram-3-fill tech-icon"></i> Database Design
+              </li>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-graph-up-arrow tech-icon"></i> Performance
+                Tuning
+              </li>
+            </ul>
+          </div>
+
+          <!-- Card 4: Frontend & Development Tools -->
+          <div class="skill-glass-card">
+            <div class="card-title">
+              <i class="bi bi-code-slash"></i>
+              Frontend & Tools
+            </div>
+
+            <ul>
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-filetype-html tech-icon"></i>
+                HTML5
+              </li>
+
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-filetype-css tech-icon"></i>
+                CSS3
+              </li>
+
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-filetype-js tech-icon"></i>
+                JavaScript
+              </li>
+
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-bootstrap-fill tech-icon"></i>
+                Bootstrap
+              </li>
+
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-git tech-icon"></i>
+                Git & GitHub
+              </li>
+
+              <li>
+                <i class="bi bi-check-lg"></i>
+                <i class="bi bi-tools tech-icon"></i>
+                Postman
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== SERVICES ====== -->
+    <section
+      class="section-padding"
+      id="services"
+      style="background: var(--bg)"
+    >
+      <div class="container">
+        <div class="text-center mb-4">
+          <span
+            class="badge-freelance"
+            style="display: inline-flex; margin-bottom: 0.5rem"
+            ><i class="bi bi-briefcase-fill"></i> Services</span
+          >
+          <h2 class="section-title">Development Services</h2>
+          <p class="section-subtitle">
+            Helping startups, businesses, and educational institutions build
+            secure, scalable, and high-performance web applications tailored to
+            their needs.
+          </p>
+          <div class="accent-line"></div>
+        </div>
+
+        <div class="row g-4">
+          <!-- Moodle LMS -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon">
+                <i class="bi bi-mortarboard-fill"></i>
+              </div>
+
+              <h5 class="fw-bold">Moodle LMS Development</h5>
+
+              <p class="service-text">
+                Build custom Moodle Learning Management Systems with plugin
+                development, theme customization, course management, payment
+                integration, reporting, and automation.
+              </p>
+
+              <div class="service-tags">
+                <span>Moodle</span>
+                <span>PHP</span>
+                <span>Plugins</span>
+                <span>LMS</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Laravel -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon">
+                <i class="bi bi-layers-fill"></i>
+              </div>
+
+              <h5 class="fw-bold">Custom Laravel Applications</h5>
+
+              <p class="service-text">
+                Develop secure Laravel applications including CRM systems,
+                booking platforms, admin panels, business automation software,
+                and other custom web solutions.
+              </p>
+
+              <div class="service-tags">
+                <span>Laravel</span>
+                <span>PHP</span>
+                <span>MySQL</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- APIs -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon">
+                <i class="bi bi-diagram-3-fill"></i>
+              </div>
+
+              <h5 class="fw-bold">REST APIs & Backend Systems</h5>
+
+              <p class="service-text">
+                Design secure REST APIs, integrate third-party services,
+                implement authentication, payment gateways, and build scalable
+                backend architectures.
+              </p>
+
+              <div class="service-tags">
+                <span>REST API</span>
+                <span>JWT</span>
+                <span>OAuth</span>
+                <span>Payments</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- WordPress -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon">
+                <i class="bi bi-wordpress"></i>
+              </div>
+
+              <h5 class="fw-bold">WordPress Plugin Development</h5>
+
+              <p class="service-text">
+                Create custom WordPress plugins, extend existing functionality,
+                integrate APIs, and build tailored solutions for business
+                requirements.
+              </p>
+
+              <div class="service-tags">
+                <span>WordPress</span>
+                <span>Plugins</span>
+                <span>WooCommerce</span>
+                <span>PHP</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Migration -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon">
+                <i class="bi bi-arrow-left-right"></i>
+              </div>
+
+              <h5 class="fw-bold">LMS Migration & Integration</h5>
+
+              <p class="service-text">
+                Migrate courses, users, and content between LMS platforms while
+                integrating payment gateways, video platforms, and third-party
+                services.
+              </p>
+
+              <div class="service-tags">
+                <span>Moodle</span>
+                <span>Migration</span>
+                <span>API</span>
+                <span>Integration</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Performance -->
+          <div class="col-md-6 col-lg-4">
+            <div class="service-card text-center h-100">
+              <div class="service-icon">
+                <i class="bi bi-speedometer2"></i>
+              </div>
+
+              <h5 class="fw-bold">Application Performance Optimization</h5>
+
+              <p class="service-text">
+                Optimize database queries, improve API response times, increase
+                application performance, and resolve scalability bottlenecks.
+              </p>
+
+              <div class="service-tags">
+                <span>Optimization</span>
+                <span>MySQL</span>
+                <span>Laravel</span>
+                <span>Performance</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== PROJECTS ====== -->
+    <section class="section-padding" id="projects" style="background: #ffffff">
+      <div class="container">
+        <div class="text-center mb-4">
+          <span
+            class="badge-freelance"
+            style="display: inline-flex; margin-bottom: 0.5rem"
+            ><i class="bi bi-folder2-open"></i> Projects</span
+          >
+          <h2 class="section-title">Recent work</h2>
+          <div class="accent-line"></div>
+        </div>
+        <div class="row g-4">
+          <!-- Project 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card h-100">
+              <img
+                src="https://img.magnific.com/premium-photo/demo-cubes-form-word-demo_556258-4243.jpg?semt=ais_hybrid&w=740&q=80"
+                class="project-img"
+                alt="Custom Moodle LMS"
+              />
+
+              <div class="project-content">
+                <span class="project-category">Moodle LMS</span>
+
+                <h5 class="fw-bold mt-2">Custom Moodle Learning Platform</h5>
+
+                <p class="project-description">
+                  Developed a scalable Moodle Learning Management System with
+                  custom plugins, theme customization, payment integration, user
+                  management, and REST API development.
+                </p>
+
+                <div class="project-tech">
+                  <span>Moodle</span>
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>REST API</span>
+                </div>
+
+                <!-- <ul class="project-features">
+                  <li>Custom Plugin Development</li>
+                  <li>Theme Customization</li>
+                  <li>Payment Integration</li>
+                </ul> -->
+
+                <a href="#" class="project-btn">
+                  View Details
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card h-100">
+              <img
+                src="https://img.magnific.com/premium-photo/demo-cubes-form-word-demo_556258-4243.jpg?semt=ais_hybrid&w=740&q=80"
+                class="project-img"
+                alt="Laravel CRM"
+              />
+
+              <div class="project-content">
+                <span class="project-category">Laravel</span>
+
+                <h5 class="fw-bold mt-2">CRM & Business Management System</h5>
+
+                <p class="project-description">
+                  Built a custom CRM application featuring customer management,
+                  lead tracking, role-based access control, reporting
+                  dashboards, and business automation.
+                </p>
+
+                <div class="project-tech">
+                  <span>Laravel</span>
+                  <span>PHP</span>
+                  <span>MySQL</span>
+                  <span>Bootstrap</span>
+                </div>
+
+                <!-- <ul class="project-features">
+                  <li>RBAC Authentication</li>
+                  <li>Reporting Dashboard</li>
+                  <li>REST APIs</li>
+                </ul> -->
+
+                <a href="#" class="project-btn">
+                  View Details
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="project-card h-100">
+              <img
+                src="https://img.magnific.com/premium-photo/demo-cubes-form-word-demo_556258-4243.jpg?semt=ais_hybrid&w=740&q=80"
+                class="project-img"
+                alt="Booking System"
+              />
+
+              <div class="project-content">
+                <span class="project-category">Laravel</span>
+
+                <h5 class="fw-bold mt-2">Appointment & Booking Platform</h5>
+
+                <p class="project-description">
+                  Developed a booking management system with scheduling,
+                  appointment tracking, notifications, admin dashboard, and API
+                  integrations.
+                </p>
+
+                <div class="project-tech">
+                  <span>Laravel</span>
+                  <span>MySQL</span>
+                  <span>REST API</span>
+                  <span>Bootstrap</span>
+                </div>
+
+                <!-- <ul class="project-features">
+                  <li>Booking Engine</li>
+                  <li>Admin Dashboard</li>
+                  <li>Notifications</li>
+                </ul> -->
+
+                <a href="#" class="project-btn">
+                  View Details
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== EXPERIENCE ====== -->
+    <section
+      class="section-padding"
+      id="experience"
+      style="background: var(--bg)"
+    >
+      <div class="container">
+        <div class="text-center mb-4">
+          <span
+            class="badge-freelance"
+            style="display: inline-flex; margin-bottom: 0.5rem"
+            ><i class="bi bi-briefcase-fill"></i> Experience</span
+          >
+          <h2 class="section-title">Professional Journey</h2>
+          <p class="section-subtitle">
+            My growth as a backend developer, building scalable Laravel
+            applications, Moodle LMS solutions, and business systems for clients
+            across different industries.
+          </p>
+          <div class="accent-line"></div>
+        </div>
+        <div class="row g-4">
+          <!-- Current Company -->
+          <div class="col-lg-4">
+            <div class="exp-card h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div>
+                  <h5 class="fw-bold mb-1">PHP Developer</h5>
+
+                  <div class="text-secondary">Nxtbyts</div>
+                </div>
+
+                <span class="badge-freelance"> Current </span>
+              </div>
+
+              <p class="text-secondary mb-3">
+                <i class="bi bi-calendar3"></i>
+                May 2025 – Present
+              </p>
+
+              <ul class="experience-list">
+                <li>Developing scalable Laravel backend applications.</li>
+
+                <li>Building custom Moodle LMS features and integrations.</li>
+
+                <li>
+                  Improved API response time by nearly 40% through query
+                  optimization.
+                </li>
+
+                <li>Designed secure REST APIs for business applications.</li>
+
+                <li>Optimized MySQL database performance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Previous Company -->
+
+          <div class="col-lg-4">
+            <div class="exp-card h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div>
+                  <h5 class="fw-bold mb-1">Full Stack Developer</h5>
+
+                  <div class="text-secondary">Udhhyog</div>
+                </div>
+
+                <span class="badge-freelance"> Full-Time </span>
+              </div>
+
+              <p class="text-secondary mb-3">
+                <i class="bi bi-calendar3"></i>
+                May 2024 – May 2025
+              </p>
+
+              <ul class="experience-list">
+                <li>Developed CRM and business management systems.</li>
+
+                <li>Built booking platforms and custom admin panels.</li>
+
+                <li>Created eCommerce modules and payment integrations.</li>
+
+                <li>Worked on Laravel REST APIs and database design.</li>
+
+                <li>Delivered multiple client projects successfully.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Internship -->
+
+          <div class="col-lg-4">
+            <div class="exp-card h-100">
+              <div
+                class="d-flex justify-content-between align-items-center mb-3"
+              >
+                <div>
+                  <h5 class="fw-bold mb-1">Full Stack Developer Intern</h5>
+
+                  <div class="text-secondary">
+                    Brandshow Consultancy Services
+                  </div>
+                </div>
+
+                <span class="badge-freelance"> Internship </span>
+              </div>
+
+              <p class="text-secondary mb-3">
+                <i class="bi bi-calendar3"></i>
+                Oct 2023 – May 2024
+              </p>
+
+              <ul class="experience-list">
+                <li>Built backend modules using PHP and Laravel.</li>
+
+                <li>Developed REST APIs for client applications.</li>
+
+                <li>Implemented authentication and role management.</li>
+
+                <li>Designed relational databases and SQL queries.</li>
+
+                <li>Collaborated on multiple real-world web projects.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== CONTACT ====== -->
+    <!-- ====== CONTACT SECTION (Redesigned – Split Card) ====== -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <!-- Section Header -->
+        <div class="contact-header">
+          <span class="contact-badge">
+            <i class="bi bi-envelope-fill"></i> Contact
+          </span>
+          <h2 class="contact-title">Let's Build Something Great</h2>
+          <div class="contact-accent-line"></div>
+          <p class="contact-subtitle">
+            Whether you're building a Laravel application, Moodle LMS, REST API,
+            or a custom business solution, I'd love to hear about your project
+            and discuss how I can help.
+          </p>
+        </div>
+
+        <!-- Glass Card (Split Layout) -->
+        <div class="contact-glass-card">
+          <div class="contact-grid">
+            <!-- LEFT SIDE: Contact Info + Socials -->
+            <div class="contact-left">
+              <div class="contact-info-list">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-envelope-fill"></i>
+                  </div>
+                  <div class="contact-text">
+                    <span class="contact-label">Email</span>
+                    <span class="contact-value">ashuraj@example.com</span>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-geo-alt-fill"></i>
+                  </div>
+                  <div class="contact-text">
+                    <span class="contact-label">Location</span>
+                    <span class="contact-value">India (Remote Worldwide)</span>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-briefcase-fill"></i>
+                  </div>
+                  <div class="contact-text">
+                    <span class="contact-label">Availability</span>
+                    <span class="contact-value"
+                      >Available for Freelance Projects</span
+                    >
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="bi bi-clock-fill"></i>
+                  </div>
+                  <div class="contact-text">
+                    <span class="contact-label">Response Time</span>
+                    <span class="contact-value">Usually within 24 hours</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Social Links (Circular) -->
+              <div class="contact-socials">
+                <a href="https://github.com/AshurajSrivastav01" class="social-circle" aria-label="GitHub">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ashuraj-srivastav/?skipRedirect=true" class="social-circle" aria-label="LinkedIn">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="mailto:ashuraj.srivastav01@gmail.com" class="social-circle" aria-label="Email">
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- RIGHT SIDE: Status + CTA -->
+            <div class="contact-right">
+              <!-- Status Badge -->
+              <div class="status-wrapper">
+                <div class="status-badge">
+                  <span class="status-dot"></span> Currently Available for
+                  Freelance
+                </div>
+                <p class="status-subtext">
+                  Average response time: Within 24 Hours
+                </p>
+              </div>
+
+              <!-- Divider -->
+              <div class="right-divider"></div>
+
+              <!-- Action Buttons -->
+              <div class="contact-actions">
+                <a href="#contact" class="btn-primary-action"> Hire Me </a>
+                <a href="#" class="btn-secondary-action"> Download Resume </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== FOOTER ====== -->
+    <!-- ====== FOOTER ====== -->
+    <footer
+      class="footer-note py-4"
+      style="
+        background: var(--bg-dark);
+        border-top: 1px solid rgba(255, 255, 255, 0.08);
+      "
+    >
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Left -->
+          <div class="col-lg-6 text-center text-lg-start mb-3 mb-lg-0">
+            <h5 class="fw-bold mb-1">Ashuraj Srivastav</h5>
+            <p class="mb-0 text-secondary">
+              Laravel Developer • Moodle LMS Specialist • Backend Engineer
+            </p>
+          </div>
+
+          <!-- Right -->
+          <div class="col-lg-6 text-center text-lg-end">
+            <a
+              href="https://github.com/AshurajSrivastav01"
+              target="_blank"
+              class="footer-icon"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+
+            <a
+              href="https://www.linkedin.com/in/ashuraj-srivastav/?skipRedirect=true"
+              target="_blank"
+              class="footer-icon"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+
+            <a href="mailto:ashuraj.srivastav01@gmail.com" class="footer-icon">
+              <i class="bi bi-envelope-fill"></i>
+            </a>
+          </div>
+        </div>
+
+        <hr class="my-4" style="border-color: rgba(255, 255, 255, 0.08)" />
+
+        <div class="text-center small text-secondary">
+          © 2026 Ashuraj Srivastav. Built with
+          <i class="bi bi-heart-fill text-danger"></i>
+          using Laravel, Bootstrap & JavaScript.
+        </div>
+      </div>
+    </footer>
+
+    <!-- ====== JAVASCRIPT ====== -->
+    <script>
+      (function () {
+        "use strict";
+
+        const nav = document.getElementById("premiumNav");
+        const hamburger = document.getElementById("hamburgerBtn");
+        const overlay = document.getElementById("mobileOverlay");
+        const closeBtn = document.getElementById("closeMenuBtn");
+        const allNavLinks = document.querySelectorAll("[data-nav]");
+
+        // scroll effect
+        function handleScroll() {
+          if (window.scrollY > 20) {
+            nav.classList.add("scrolled");
+          } else {
+            nav.classList.remove("scrolled");
+          }
+        }
+        window.addEventListener("scroll", handleScroll, { passive: true });
+        handleScroll();
+
+        // mobile menu
+        function openMenu() {
+          overlay.classList.add("open");
+          hamburger.setAttribute("aria-expanded", "true");
+          document.body.style.overflow = "hidden";
+        }
+
+        function closeMenu() {
+          overlay.classList.remove("open");
+          hamburger.setAttribute("aria-expanded", "false");
+          document.body.style.overflow = "";
+        }
+        hamburger.addEventListener("click", openMenu);
+        closeBtn.addEventListener("click", closeMenu);
+        overlay.addEventListener("click", function (e) {
+          if (e.target === overlay) closeMenu();
+        });
+
+        // active link + smooth scroll
+        allNavLinks.forEach((link) => {
+          link.addEventListener("click", function (e) {
+            // remove active from all
+            allNavLinks.forEach((l) => l.classList.remove("active"));
+            this.classList.add("active");
+            if (overlay.classList.contains("open")) closeMenu();
+            // smooth scroll (Bootstrap handles via #)
+          });
+        });
+
+        // set active based on scroll (optional)
+        const sections = [
+          "about",
+          "skills",
+          "services",
+          "projects",
+          "experience",
+          "contact",
+        ];
+        window.addEventListener("scroll", function () {
+          let current = "";
+          sections.forEach((id) => {
+            const el = document.getElementById(id);
+            if (el && window.scrollY >= el.offsetTop - 150) {
+              current = id;
+            }
+          });
+          allNavLinks.forEach((link) => {
+            link.classList.toggle(
+              "active",
+              link.getAttribute("href") === "#" + current,
+            );
+          });
+        });
+
+        document.addEventListener("keydown", function (e) {
+          if (e.key === "Escape" && overlay.classList.contains("open"))
+            closeMenu();
+        });
+        window.addEventListener("resize", function () {
+          if (window.innerWidth >= 992 && overlay.classList.contains("open"))
+            closeMenu();
+        });
+      })();
+    </script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
