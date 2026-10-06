@@ -119,10 +119,10 @@
         <div class="col-lg-6 col-xl-6 fade-slide-up">
           <div class="badge-freelance">
             <i class="bi bi-circle-fill" style="font-size: 0.6rem"></i>
-            Available for Freelance
+            Available for Freelance Projects
           </div>
           <h1 class="main-heading">
-            Building Scalable <span>Laravel</span> &<br />
+            Building Scalable <span>Laravel</span> &
             <span>Moodle</span> Solutions for <span>Businesses</span> &
             <span>Educational</span> Platforms
           </h1>
@@ -139,33 +139,55 @@
             <a href="#contact" class="btn btn-premium btn-outline-custom"
               >Let's Talk</a
             >
-            <a href="#contact" class="btn btn-premium btn-primary-custom"
-              ><i class="bi bi-file-fill"></i> Download Resume</a
-            >
+            <!-- <a href="{{ asset('asset/docs/Resume.pdf') }}" class="btn btn-premium btn-primary-custom"
+              ><i class="bi bi-file-fill"></i> Download Resume</a> -->
           </div>
           <div class="social-icons">
-            <a href="https://github.com/AshurajSrivastav01" aria-label="GitHub"><i class="bi bi-github"></i></a>
-            <a href="https://www.linkedin.com/in/ashuraj-srivastav/?skipRedirect=true" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
-            <a href="mailto:ashuraj.srivastav01@gmail.com" aria-label="Email"
-              ><i class="bi bi-envelope-fill"></i
-            ></a>
+            <a
+              href="https://github.com/AshurajSrivastav01"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
+              <i class="bi bi-github"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ashuraj-srivastav/?skipRedirect=true"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+            >
+              <i class="bi bi-linkedin"></i>
+            </a>
+            <a
+              href="mailto:ashuraj.srivastav01@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Email"
+            >
+              <i class="bi bi-envelope-fill"></i>
+            </a>
           </div>
           <div class="trust-grid">
-            <span class="trust-card"
-              ><i class="bi bi-briefcase-fill"></i> <strong>3+</strong> Years
-              Experience</span
-            >
-            <span class="trust-card"
-              ><i class="bi bi-diagram-3-fill"></i> <strong>10+</strong> Client
-              Projects</span
-            >
-            <span class="trust-card"
-              ><i class="bi bi-code-square"></i>Laravel + Moodle
-              Specialist</span
-            >
-            <span class="trust-card"
-              ><i class="bi bi-check-circle-fill"></i>Available Worldwide</span
-            >
+            <span class="trust-card">
+              <i class="bi bi-briefcase-fill"></i>
+              <strong>5+</strong> Years Experience
+            </span>
+
+            <span class="trust-card">
+              <i class="bi bi-diagram-3-fill"></i>
+              <strong>10+</strong> Projects Delivered
+            </span>
+
+            <span class="trust-card">
+              <i class="bi bi-code-square"></i>
+              Laravel + Moodle Specialist
+            </span>
+
+            <span class="trust-card">
+              <i class="bi bi-globe2"></i>
+              Available Worldwide
+            </span>
           </div>
         </div>
         <div
