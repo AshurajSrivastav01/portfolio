@@ -23,3 +23,7 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+# BEGIN MilesWeb-ErrorPages
+ErrorDocument 503 /error_pages/503.html
+# END MilesWeb-ErrorPages
