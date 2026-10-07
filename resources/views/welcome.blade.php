@@ -176,7 +176,7 @@
 
             <span class="trust-card">
               <i class="bi bi-diagram-3-fill"></i>
-              <strong>10+</strong> Projects Delivered
+              <strong>30+</strong> Projects Delivered
             </span>
 
             <span class="trust-card">
@@ -202,7 +202,7 @@
               style="animation-delay: 0.1s"
             >
               <img
-                src="{{ asset('asset/img/me.png') }}"
+                src="{{ asset('asset/img/me.jpeg') }}"
                 alt="Ashuraj Srivastav"
                 class="profile-img"
                 loading="eager"
@@ -251,7 +251,7 @@
 
           <p class="section-subtitle">
             I'm <strong>Ashuraj Srivastav</strong>, a Full-Stack Web Developer
-            with 3+ years of professional experience specializing in Laravel,
+            with 5+ years of professional experience specializing in Laravel,
             Moodle LMS, and backend development. I help businesses and
             educational organizations build secure web applications, scalable
             Learning Management Systems, and high-performance REST APIs.
@@ -267,7 +267,7 @@
 
               <p style="color: var(--text-secondary); line-height: 1.9">
                 I'm passionate about building web applications that solve real
-                business problems. Over the past three years, I've worked on
+                business problems. Over the past five years, I've worked on
                 custom Laravel applications, Moodle Learning Management Systems,
                 CRM solutions, booking platforms, and RESTful APIs for
                 businesses across different industries.
@@ -311,12 +311,12 @@
 
               <div>
                 <i class="bi bi-briefcase-fill text-danger me-2"></i>
-                <strong>Experience:</strong> 3+ Years Professional Experience
+                <strong>Experience:</strong> 5+ Years Professional Experience
               </div>
 
               <div>
                 <i class="bi bi-check2-circle text-danger me-2"></i>
-                <strong>Projects:</strong> 50+ Professional Projects Delivered
+                <strong>Projects:</strong> 30+ Professional Projects Delivered
               </div>
 
               <div>
