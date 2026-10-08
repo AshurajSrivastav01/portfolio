@@ -3,7 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ashuraj Srivastav · Software Engineer</title>
+    <title>Ashuraj Srivastav | Moodle & Laravel Developer</title>
+
+    <meta name="description" content="Ashuraj Srivastav is a Moodle and Laravel Developer specializing in LMS development, custom Moodle plugins, Laravel applications, REST APIs, and scalable backend systems.">
+    <meta name="author" content="Ashuraj Srivastav">
+    <link rel="canonical" href="https://ashuraj.codebridgeit.com/">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ashuraj Srivastav | Moodle & Laravel Developer">
+    <meta property="og:description" content="Moodle & Laravel Developer specializing in LMS development, custom plugins, REST APIs, and scalable backend systems.">
+    <meta property="og:url" content="https://ashuraj.codebridgeit.com/">
+    <meta property="og:site_name" content="Ashuraj Srivastav">
+    <meta property="og:image" content="https://ashuraj.codebridgeit.com/assets/img/og-image.jpg">
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Ashuraj Srivastav | Moodle & Laravel Developer">
+    <meta name="twitter:description"
+          content="Moodle & Laravel Developer specializing in LMS development, custom plugins, REST APIs, and scalable backend systems.">
+    <meta name="twitter:image" content="https://ashuraj.codebridgeit.com/assets/img/og-image.jpg">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" href="{{ asset('assets/img/favicon.png') }}">
     
     <!-- Bootstrap 5.3 + Icons -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
@@ -110,8 +133,8 @@
             Available for Freelance Projects
           </div>
           <h1 class="main-heading">
-            Building Scalable <span>Laravel</span> &
-            <span>Moodle</span> Solutions for <span>Businesses</span> &
+            Building Scalable <span>Moodle</span> &
+            <span>Laravel</span> Solutions for <span>Businesses</span> &
             <span>Educational</span> Platforms
           </h1>
           <p class="desc-text">
@@ -234,15 +257,15 @@
           </span>
 
           <h2 class="section-title">
-            Laravel & Moodle Solutions <br />
+            Moodle & Laravel Solutions <br />
             Built for Real Businesses
           </h2>
 
           <div class="accent-line"></div>
           <p class="section-subtitle">
             I'm <strong>Ashuraj Srivastav</strong>, a Full-Stack Web Developer
-            with 3+ years of professional experience specializing in Laravel,
-            Moodle LMS, and backend development. I build secure web applications,
+            with 3+ years of professional experience specializing in Moodle,
+            Laravel, and backend development. I build secure web applications,
             scalable learning platforms, and high-performance REST APIs for
             businesses and educational organizations.
           </p>
