@@ -825,7 +825,7 @@
 
                 <div class="project-links">
                   <a
-                    href="YOUR_LIVE_DEMO_URL"
+                    href="https://lmsone.codebridgeit.com/"
                     class="project-link project-link-primary"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -843,7 +843,7 @@
                   </a>
 
                   <a
-                    href="YOUR_GITHUB_REPOSITORY_URL"
+                    href="https://github.com/AshurajSrivastav01/corporate-lms"
                     class="project-link"
                     target="_blank"
                     rel="noopener noreferrer"
