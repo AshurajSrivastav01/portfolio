@@ -602,7 +602,7 @@
           <div class="row g-4">
             <!-- Moodle LMS -->
             <div class="col-md-6 col-lg-4">
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
                 <div class="service-icon">
                   <i class="bi bi-mortarboard-fill" aria-hidden="true"></i>
                 </div>
@@ -626,7 +626,7 @@
 
             <!-- Laravel -->
             <div class="col-md-6 col-lg-4">
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
                 <div class="service-icon">
                   <i class="bi bi-layers-fill" aria-hidden="true"></i>
                 </div>
@@ -650,7 +650,7 @@
 
             <!-- Migration -->
             <div class="col-md-6 col-lg-4">
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
                 <div class="service-icon">
                   <i class="bi bi-arrow-left-right" aria-hidden="true"></i>
                 </div>
@@ -674,7 +674,7 @@
 
             <!-- APIs -->
             <div class="col-md-6 col-lg-4">
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
                 <div class="service-icon">
                   <i class="bi bi-diagram-3-fill" aria-hidden="true"></i>
                 </div>
@@ -696,7 +696,7 @@
 
             <!-- WordPress -->
             <div class="col-md-6 col-lg-4">
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
                 <div class="service-icon">
                   <i class="bi bi-wordpress" aria-hidden="true"></i>
                 </div>
@@ -720,7 +720,7 @@
 
             <!-- Performance -->
             <div class="col-md-6 col-lg-4">
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
                 <div class="service-icon">
                   <i class="bi bi-speedometer2" aria-hidden="true"></i>
                 </div>
@@ -750,154 +750,443 @@
 
           <!-- Section Header -->
           <div class="text-center mb-4">
-
-            <span
-              class="badge-freelance"
-              style="display: inline-flex; margin-bottom: 0.5rem"
-            >
+            <span class="badge-freelance" style="display: inline-flex; margin-bottom: 0.5rem">
               <i class="bi bi-folder2-open" aria-hidden="true"></i>
               Projects
             </span>
 
-            <h2 class="section-title">
-              Selected Projects
-            </h2>
-
+            <h2 class="section-title">Selected Projects</h2>
             <div class="accent-line"></div>
 
             <p class="section-subtitle">
-              A selection of Moodle, Laravel, and backend solutions built to solve
-              real business and learning-platform requirements.
+              Explore practical Moodle LMS and Laravel application demos
+              focused on real-world learning and business workflows.
             </p>
           </div>
 
+          <!-- Project Filters -->
+          <div class="project-filters d-flex flex-wrap justify-content-center gap-2 mb-4"
+              role="group" aria-label="Filter projects">
+
+            <button type="button" class="project-filter active"
+                    data-filter="all" aria-pressed="true">
+              All Projects
+            </button>
+
+            <button type="button" class="project-filter"
+                    data-filter="moodle" aria-pressed="false">
+              Moodle / LMS
+            </button>
+
+            <button type="button" class="project-filter"
+                    data-filter="laravel" aria-pressed="false">
+              Laravel
+            </button>
+          </div>
 
           <!-- Projects Grid -->
-          <div class="row g-4">
+          <div class="row g-4" id="projects-grid">
 
-            <!-- ================================= -->
-            <!-- PROJECT 1 — MOODLE -->
-            <!-- ================================= -->
-            <div class="col-md-6 col-lg-4">
-
-              <div class="project-card h-100">
-
-                <img
-                  src="https://img.magnific.com/free-photo/document-marketing-strategy-business-concept_53876-132231.jpg?semt=ais_hybrid&w=740&q=80"
-                  class="project-img"
-                  alt="Moodle LMS dashboard showing available courses"
-                  loading="lazy"
-                />
-
-                <div class="project-content">
-
-                  <span class="project-category">
-                    Moodle LMS
-                  </span>
-
-                  <h3 class="fw-bold mt-2">
-                    Custom Moodle Learning Platform
-                  </h3>
-
-                  <p class="project-description">
-                    Developed a scalable Moodle Learning Management System with
-                    custom plugins, theme customization, payment integration,
-                    user management, and REST API development.
-                  </p>
-
-                  <div class="project-tech">
-                    <span>Moodle</span>
-                    <span>PHP</span>
-                    <span>REST API</span>
+            <!-- 01. Corporate Learning Hub -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="moodle">
+              <article class="project-card h-100" style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div>
+                  <div class="project-image-wrap">
+                    <img
+                      src="{{ asset('asset/img/projects/corporate-learning-hub.jpeg') }}"
+                      class="project-img"
+                      alt="Corporate Learning Hub course dashboard preview"
+                      loading="lazy"
+                      decoding="async"
+                      width="800"
+                      height="500"
+                    />
                   </div>
-
-                  <!-- <a href="#" class="project-btn">View Details <i class="bi bi-arrow-right" aria-hidden="true"></i></a> -->
+  
+                  <div class="project-content">
+                    <span class="project-category">Moodle LMS</span>
+                    <h3 class="fw-bold mt-2">Corporate Learning Hub</h3>
+  
+                    <p class="project-description">
+                      A corporate learning platform concept for employee training,
+                      learning paths, assessments, certificates, and progress reporting.
+                    </p>
+  
+                    <div class="project-tech">
+                      <span>Moodle</span><span>PHP</span><span>MySQL</span>
+                    </div>
+  
+                    <p class="project-status">
+                      <i class="bi bi-tools" aria-hidden="true"></i>
+                      Planned demo
+                    </p>
+                  </div>
                 </div>
-              </div>
 
+                <div class="project-links">
+                  <a
+                    href="YOUR_LIVE_DEMO_URL"
+                    class="project-link project-link-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub live demo"
+                  >
+                    Live Demo <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="Read Corporate Learning Hub case study"
+                  >
+                    Case Study
+                  </a>
+
+                  <a
+                    href="YOUR_GITHUB_REPOSITORY_URL"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub GitHub repository"
+                  >
+                    <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                  </a>
+                </div>
+              </article>
             </div>
 
-
-            <!-- ================================= -->
-            <!-- PROJECT 2 — LARAVEL CRM -->
-            <!-- ================================= -->
-            <div class="col-md-6 col-lg-4">
-
-              <div class="project-card h-100">
-
-                <img src="https://img.magnific.com/free-photo/document-marketing-strategy-business-concept_53876-132231.jpg?semt=ais_hybrid&w=740&q=80" class="project-img" alt="CRM dashboard showing business metrics and customer records" loading="lazy"/>
-
-                <div class="project-content">
-
-                  <span class="project-category">
-                    Laravel
-                  </span>
-
-                  <h3 class="fw-bold mt-2">
-                    CRM & Business Management System
-                  </h3>
-
-                  <p class="project-description">
-                    Built a custom CRM application featuring customer management,
-                    lead tracking, role-based access control, reporting dashboards,
-                    and business automation.
-                  </p>
-
-                  <div class="project-tech">
-                    <span>Laravel</span>
-                    <span>PHP</span>
-                    <span>MySQL</span>
+            <!-- 02. AcademyPro -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="moodle">
+              <article class="project-card h-100" style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div>
+                  <div class="project-image-wrap">
+                    <img
+                      src="{{ asset('asset/img/projects/academypro-e-learning-dashboard.jpeg') }}"
+                      class="project-img"
+                      alt="AcademyPro online course marketplace preview"
+                      loading="lazy"
+                      decoding="async"
+                      width="800"
+                      height="500"
+                    />
                   </div>
 
-                  <!-- <a href="#" class="project-btn">View Details <i class="bi bi-arrow-right" aria-hidden="true"></i></a> -->
+                  <div class="project-content">
+                    <span class="project-category">Moodle · E-learning</span>
+                    <h3 class="fw-bold mt-2">AcademyPro</h3>
+
+                    <p class="project-description">
+                      An online learning marketplace concept featuring course
+                      discovery, enrollment, course bundles, coupons, and checkout.
+                    </p>
+
+                    <div class="project-tech">
+                      <span>Moodle</span><span>PHP</span><span>Payments</span>
+                    </div>
+
+                    <p class="project-status">
+                      <i class="bi bi-tools" aria-hidden="true"></i>
+                      Planned demo
+                    </p>
+                  </div>
                 </div>
+                <div class="project-links">
+                  <a
+                    href="YOUR_LIVE_DEMO_URL"
+                    class="project-link project-link-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub live demo"
+                  >
+                    Live Demo <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                  </a>
 
-              </div>
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="Read Corporate Learning Hub case study"
+                  >
+                    Case Study
+                  </a>
 
+                  <a
+                    href="YOUR_GITHUB_REPOSITORY_URL"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub GitHub repository"
+                  >
+                    <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                  </a>
+                </div>
+              </article>
             </div>
 
+            <!-- 03. ClientFlow -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="laravel">
+              <article class="project-card h-100" style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div>
+                  <div class="project-image-wrap">
+                    <img
+                      src="{{ asset('asset/img/projects/clientflow.jpeg') }}"
+                      class="project-img"
+                      alt="ClientFlow CRM sales pipeline dashboard preview"
+                      loading="lazy"
+                      decoding="async"
+                      width="800"
+                      height="500"
+                    />
+                  </div>
 
-            <!-- ================================= -->
-            <!-- PROJECT 3 — BOOKING -->
-            <!-- ================================= -->
-            <div class="col-md-6 col-lg-4">
+                  <div class="project-content">
+                    <span class="project-category">Laravel · CRM</span>
+                    <h3 class="fw-bold mt-2">ClientFlow</h3>
 
-              <div class="project-card h-100">
+                    <p class="project-description">
+                      A CRM concept for managing leads, client records, sales pipeline
+                      stages, follow-up tasks, and sales activity reports.
+                    </p>
 
-                <img
-                  src="https://img.magnific.com/free-photo/document-marketing-strategy-business-concept_53876-132231.jpg?semt=ais_hybrid&w=740&q=80"
-                  class="project-img"
-                  alt="Appointment booking interface with a calendar and available time slots"
-                  loading="lazy"
-                />
+                    <div class="project-tech">
+                      <span>Laravel</span><span>MySQL</span><span>REST API</span>
+                    </div>
+
+                    <p class="project-status">
+                      <i class="bi bi-tools" aria-hidden="true"></i>
+                      Planned demo
+                    </p>
+                  </div>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="YOUR_LIVE_DEMO_URL"
+                    class="project-link project-link-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub live demo"
+                  >
+                    Live Demo <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="Read Corporate Learning Hub case study"
+                  >
+                    Case Study
+                  </a>
+
+                  <a
+                    href="YOUR_GITHUB_REPOSITORY_URL"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub GitHub repository"
+                  >
+                    <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- 04. CommerceCore -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="laravel">
+              <article class="project-card h-100" style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div class="project-image-wrap">
+                  <img
+                    src="{{ asset('asset/img/projects/commercecore.jpeg') }}"
+                    class="project-img"
+                    alt="CommerceCore online store and inventory dashboard preview"
+                    loading="lazy"
+                    decoding="async"
+                    width="800"
+                    height="500"
+                  />
+                </div>
 
                 <div class="project-content">
-
-                  <span class="project-category">
-                    Laravel
-                  </span>
-
-                  <h3 class="fw-bold mt-2">
-                    Appointment & Booking Platform
-                  </h3>
+                  <span class="project-category">Laravel · E-commerce</span>
+                  <h3 class="fw-bold mt-2">CommerceCore</h3>
 
                   <p class="project-description">
-                    Developed a booking management system with scheduling,
-                    appointment tracking, notifications, admin dashboard,
-                    and API integrations.
+                    A single-vendor store concept with product catalogs, inventory
+                    management, checkout, order history, and payment workflows.
                   </p>
 
                   <div class="project-tech">
-                    <span>Laravel</span>
-                    <span>MySQL</span>
-                    <span>REST API</span>
+                    <span>Laravel</span><span>MySQL</span><span>Payments</span>
                   </div>
 
-                  <!-- <a href="#" class="project-btn">View Details <i class="bi bi-arrow-right" aria-hidden="true"></i></a> -->
+                  <p class="project-status">
+                    <i class="bi bi-tools" aria-hidden="true"></i>
+                    Planned demo
+                  </p>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="YOUR_LIVE_DEMO_URL"
+                    class="project-link project-link-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub live demo"
+                  >
+                    Live Demo <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="Read Corporate Learning Hub case study"
+                  >
+                    Case Study
+                  </a>
+
+                  <a
+                    href="{{ asset('https://github.com/yourusername/corporate-learning-hub') }}"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub GitHub repository"
+                  >
+                    <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- 05. Workforce360 -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="laravel">
+              <article class="project-card h-100" style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div>
+                  <div class="project-image-wrap">
+                    <img
+                      src="{{ asset('asset/img/projects/workforce360.jpeg') }}"
+                      class="project-img"
+                      alt="Workforce360 employee and attendance dashboard preview"
+                      loading="lazy"
+                      decoding="async"
+                      width="800"
+                      height="500"
+                    />
+                  </div>
+  
+                  <div class="project-content">
+                    <span class="project-category">Laravel · HRMS</span>
+                    <h3 class="fw-bold mt-2">Workforce360</h3>
+  
+                    <p class="project-description">
+                      An employee operations concept for staff records, QR-based
+                      attendance, leave approvals, and monthly HR reporting.
+                    </p>
+  
+                    <div class="project-tech">
+                      <span>Laravel</span><span>MySQL</span><span>QR Workflow</span>
+                    </div>
+  
+                    <p class="project-status">
+                      <i class="bi bi-tools" aria-hidden="true"></i>
+                      Planned demo
+                    </p>
+                  </div>
+                </div>
+                <div class="project-links">
+                  <a
+                    href="YOUR_LIVE_DEMO_URL"
+                    class="project-link project-link-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub live demo"
+                  >
+                    Live Demo <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                  </a>
+
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="Read Corporate Learning Hub case study"
+                  >
+                    Case Study
+                  </a>
+
+                  <a
+                    href="{{ asset('https://github.com/yourusername/corporate-learning-hub') }}"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub GitHub repository"
+                  >
+                    <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                  </a>
+                </div>
+              </article>
+            </div>
+
+            <!-- 06. ProjectPilot -->
+            <div class="col-md-6 col-lg-4 project-item" data-category="laravel">
+              <article class="project-card h-100" style="display: flex;flex-direction: column;justify-content: space-between;">
+                <div>
+                  <div class="project-image-wrap">
+                    <img
+                      src="{{ asset('asset/img/projects/projectpilot.jpeg') }}"
+                      class="project-img"
+                      alt="ProjectPilot project and Kanban task board preview"
+                      loading="lazy"
+                      decoding="async"
+                      width="800"
+                      height="500"
+                    />
+                  </div>
+
+                  <div class="project-content">
+                    <span class="project-category">Laravel · Project Management</span>
+                    <h3 class="fw-bold mt-2">ProjectPilot</h3>
+
+                    <p class="project-description">
+                      A team workspace concept for Kanban boards, task assignments,
+                      priorities, deadlines, and project progress tracking.
+                    </p>
+
+                    <div class="project-tech">
+                      <span>Laravel</span><span>MySQL</span><span>Workflows</span>
+                    </div>
+
+                    <p class="project-status">
+                      <i class="bi bi-tools" aria-hidden="true"></i>
+                      Planned demo
+                    </p>
+                  </div>
                 </div>
 
-              </div>
+                <div class="project-links">
+                  <a
+                    href="#"
+                    class="project-link project-link-primary"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub live demo"
+                  >
+                    Live Demo <i class="bi bi-box-arrow-up-right" aria-hidden="true"></i>
+                  </a>
 
+                  <a
+                    href="#"
+                    class="project-link"
+                    aria-label="Read Corporate Learning Hub case study"
+                  >
+                    Case Study
+                  </a>
+
+                  <a
+                    href="{{ asset('https://github.com/yourusername/corporate-learning-hub') }}"
+                    class="project-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="View Corporate Learning Hub GitHub repository"
+                  >
+                    <i class="bi bi-github" aria-hidden="true"></i> GitHub
+                  </a>
+                </div>
+              </article>
             </div>
 
           </div>
@@ -1149,7 +1438,7 @@
             <!-- 01. Clean Code -->
             <div class="col-md-6 col-lg-3">
 
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
 
                 <div class="service-icon">
                   <i class="bi bi-code-square" aria-hidden="true"></i>
@@ -1172,7 +1461,7 @@
             <!-- 02. Backend Expertise -->
             <div class="col-md-6 col-lg-3">
 
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
 
                 <div class="service-icon">
                   <i class="bi bi-server" aria-hidden="true"></i>
@@ -1195,7 +1484,7 @@
             <!-- 03. Business Solutions -->
             <div class="col-md-6 col-lg-3">
 
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
 
                 <div class="service-icon">
                   <i class="bi bi-lightbulb-fill" aria-hidden="true"></i>
@@ -1218,7 +1507,7 @@
             <!-- 04. Communication -->
             <div class="col-md-6 col-lg-3">
 
-              <div class="service-card text-center h-100">
+              <div class="service-card text-center h-100 p-4">
 
                 <div class="service-icon">
                   <i class="bi bi-chat-dots-fill" aria-hidden="true"></i>
@@ -1630,6 +1919,34 @@
             closeMenu();
         });
       })();
+    </script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const filterButtons = document.querySelectorAll(".project-filter");
+        const projectItems = document.querySelectorAll(".project-item");
+
+        filterButtons.forEach((button) => {
+          button.addEventListener("click", () => {
+            const selectedFilter = button.dataset.filter;
+
+            filterButtons.forEach((item) => {
+              const isActive = item === button;
+
+              item.classList.toggle("active", isActive);
+              item.setAttribute("aria-pressed", String(isActive));
+            });
+
+              projectItems.forEach((project) => {
+                const matches =
+                  selectedFilter === "all" ||
+                  project.dataset.category === selectedFilter;
+
+                project.hidden = !matches;
+              });
+          });
+        });
+      });
     </script>
 
     <!-- Bootstrap JS -->
